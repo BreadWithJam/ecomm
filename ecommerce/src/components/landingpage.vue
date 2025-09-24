@@ -30,7 +30,7 @@
         <div class="col-7">
             <div id = "carouselContent" class = "carousel slide" data-bs-ride = "carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval = "1500">
+                    <div class="carousel-item active" data-bs-interval = "1100">
                         <img src="C:\src\ecomm\ecommerce\src\assets\images\bags.png" alt="bags" style = "height: 200px; width: 350px; margin-top: 2%;">
                         <div class="carousel-caption" style="text-align: right;"></div>
                     </div>
