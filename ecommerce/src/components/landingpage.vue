@@ -6,7 +6,7 @@
 
 
 <template>
-    <body class = "bg">
+<body class = "bg">
 <div class = "container-fluid">
     <div class = "row align-items-center">
         <div class = "col-lg-12 d-flex align-items-center"style = "height: 50px">
@@ -23,38 +23,53 @@
                </div>
             
         </div> 
-</div>
- </div>
+            </div>
+                </div>
+
         <div class="container-fluid bcontainer mt-4">
             <div class="row">
-        <div class="col-7">
-            <div id = "carouselContent" class = "carousel slide" data-bs-ride = "carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval = "1100">
+                 <div class="col-7">
+                    <div id = "carouselContent" class = "carousel slide" data-bs-ride = "carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval = "1500">
                         <img src="C:\src\ecomm\ecommerce\src\assets\images\bags.png" alt="bags" style = "height: 200px; width: 350px; margin-top: 2%;">
-                        <div class="carousel-caption" style="text-align: right;"></div>
+                            <div class="carousel-caption" style="text-align: right;">
+                         </div>
                     </div>
-                </div>
+                
                   
                 <div class = "carousel-item" data-bs-interval="1100">
                         <img src="C:\src\ecomm\ecommerce\src\assets\images\sandals.png" alt="sandals" style = "height: 200px; width: 350px; margin-top: 2%;">
                         <div class="carousel-caption" style="text-align: right;"></div>
                 </div>
-            </div>
+        
        
-            <div class="carousel-item" data-bs-interval="1100">
-                <img src="C:\src\ecomm\ecommerce\src\assets\images\womensWear.png" alt="Women's wear'" style = "height: 200px; width: 350px; margin-top: 2%;">
-                    <div class="carousel-caption" style="text-align: right">
-                    </div>
-                     </div>
-
-            <div class="carousel-item" data-bs-interval="1100">
+            <div class="carousel-item" data-bs-interval="1500">
+                <img src="C:\src\ecomm\ecommerce\src\assets\images\womensWear.png" alt="Women's wear'" style = "height: 200px; width: 200px; margin-top: 2%;">
+                   </div>
+            <div class="carousel-item" data-bs-interval="1500">
                 <img src="C:\src\ecomm\ecommerce\src\assets\images\Shoes.png" alt="Shoes" style = "height: 200px; width: 350px; margin-top: 2%;">
+                     <div class="carousel-caption" style="text-align: right">
+                 </div>
+                     </div>  
+
+                 </div>
             </div>
-            
+        </div>
+
+    <div class="col-5 d-flex align-items-center">
+        <div>
+            <h2 style="font-size: 35px; font-weight: bold;"> 
+                Discover More. Spend Less.
+            </h2>
+            <h2 style="font-size: 35px; font-weight: bold;"> 
+                Only at Syapi.
+            </h2>
         </div>
     </div>
-    </div>
+
+    </div>  
+        </div>
 
 </body>
 </template>
