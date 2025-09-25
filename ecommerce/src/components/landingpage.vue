@@ -68,10 +68,19 @@
             </h2>
         </div>
     </div>
-
     
+    <div class="container-fluid mt-4">
+    <div class="col-12">
+        <img src="C:\src\ecomm\ecommerce\src\assets\images\banner.png" alt="banner"
+        style="height: 150px; width: 100%;">
+    </div>
+</div>
+
     </div>  
         </div>
+
+
+
 
 </body>
 </template>
@@ -112,7 +121,6 @@ container{
     color: white;
     border-radius: 10px;
    padding: 50px 20px;
-  
    max-width: 500px;
 }
 </style>
