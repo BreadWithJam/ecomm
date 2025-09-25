@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #ADD0B3;
+  background-color: #FFF0ED;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -27,12 +27,12 @@ body {
   padding: 0;
   width: 100%;
   min-height: 100vh;
-  background-color: #ADD0B3;
+  background-color: #FFF0ED;
  
 }
 
 .bg{
-   background-color: #ADD0B3;
+   background-color: #FFF0ED;
    width: 100%;
     min-height: 100vh;
    
@@ -71,7 +71,7 @@ button:focus-visible {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: #ADD0B3; 
+  background-color: #FFF0ED; 
 }
 
 @media (prefers-color-scheme: light) {

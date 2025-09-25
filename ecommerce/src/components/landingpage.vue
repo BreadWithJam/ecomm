@@ -55,10 +55,11 @@
 
                  </div>
             </div>
-        </div>
+            </div>
+        
 
     <div class="col-5 d-flex align-items-center">
-        <div>
+        <div class="colTagline text-center">
             <h2 style="font-size: 35px; font-weight: bold;"> 
                 Discover More. Spend Less.
             </h2>
@@ -68,6 +69,7 @@
         </div>
     </div>
 
+    
     </div>  
         </div>
 
@@ -103,5 +105,14 @@
 
 container{
     width: 100%;
+}
+
+.colTagline{
+    background-color: #F47C68;
+    color: white;
+    border-radius: 10px;
+   padding: 50px 20px;
+  
+   max-width: 500px;
 }
 </style>
