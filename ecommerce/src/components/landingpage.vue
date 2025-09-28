@@ -12,11 +12,11 @@
         <!--------------------------Navbar--------------------------------->
         
             <div class="con">
-            <img src="C:\src\ecomm\ecommerce\src\assets\images\syapiLogo (1).png" alt="Logo" style="width: 180px; margin-right: 15px;">
+            <img src="C:\src\ecomm\ecommerce\src\assets\images\syapiLogo (1).png" alt="Logo" style="width: 180px; margin-right: 15px; height: 150px;">
                 <input type="text" name="" id="" placeholder="Search" class="form-control rounded-pill shadow-sm"
                 style=" width: 550px; height: 40px; margin-left: 170spx;">
                <button class = "btn searchbtn" style="margin-left: 30px; height: 40%; width: 5%; border-radius: 12px;"> 
-                <i class="bi bi-search" style="margin-bottom: 50px;"> </i>
+                <i class="bi bi-search"> </i>
                </button>
                <div style="margin-left: 8%; margin-right: 0;">
                 <button class="iconbtn" style="margin-right: 30px;">
@@ -31,7 +31,7 @@
                 </div>
                    
                     <!----------------------------Carousel-------------------------->
-        <div class="container-fluid bcontainer mt-4">
+        <div class="container-fluid bcontainer mt-5">
             <div class="row">
                  <div class="col-7 mt-3">
                     <div id = "carouselContent" class = "carousel slide" data-bs-ride = "carousel">
@@ -50,10 +50,10 @@
         
        
             <div class="carousel-item" data-bs-interval="1500">
-                <img src="C:\src\ecomm\ecommerce\src\assets\images\womensWear.png" alt="Women's wear'" style = "height: 300px; width: 200px; margin-top: 2%;">
+                <img src="C:\src\ecomm\ecommerce\src\assets\images\banner4.png" alt="Women's wear'" style = "height: 300px; width: 700px; margin-top: 2%;">
                    </div>
             <div class="carousel-item" data-bs-interval="1500">
-                <img src="C:\src\ecomm\ecommerce\src\assets\images\Shoes.png" alt="Shoes" style = "height: 300px; width: 350px; margin-top: 2%;">
+                <img src="C:\src\ecomm\ecommerce\src\assets\images\banner5.png" alt="Shoes" style = "height: 300px; width: 700px; margin-top: 2%;">
                      <div class="carousel-caption" style="text-align: right">
                  </div>
                      </div>  
@@ -63,23 +63,33 @@
             </div>
         
 
-    <div class="col-5 d-flex align-items-center mt-4">
-        <div class="row">
-        <div class="container mb-1" style="background-color: red; height: 90px;">     
-            <img src="C:\src\ecomm\ecommerce\src\assets\images\banner3.png" alt="" style="height: 150px; width: 50%;">           
+    <div class="col-5 mt-4">
+        <div class="row">     
+            <div class="col-3"><div class="glass-grid">
+                <img src="C:\src\ecomm\ecommerce\src\assets\images\shoes.png" alt="Women's wear">
+            </div></div>
+            <div class="col-3"><div class="glass-grid">1</div></div>
+            <div class="col-3"><div class="glass-grid">1</div></div>
+            <div class="col-3"><div class="glass-grid">1</div></div>
+
+            <div class="col-3"><div class="small-box glass-grid" style="background-color: blue;">1</div></div>
+            <div class="col-3"><div class="small-box glass-grid" style="background-color: blue;">1</div></div>
+            <div class="col-3"><div class="small-box glass-grid" style="background-color: blue;">1</div></div>
+            <div class="col-3"><div class="small-box glass-grid" style="background-color: blue;">1</div></div>
+
+
+           <div class="col-3"><div class="small-box glass-grid" style="background-color: blue;">1</div></div>
+            <div class="col-3"><div class="small-box glass-grid" style="background-color: blue;">1</div></div>
+            <div class="col-3"><div class="small-box glass-grid" style="background-color: blue;">1</div></div>
+            <div class="col-3"><div class="small-box glass-grid" style="background-color: blue;">1</div></div>
+
+
 </div>
-<div class="container" style="background-color: blue; height: 94px;">
-            <h2 style="font-size: 35px; font-weight: bold;"> 
-                Only at Syapi.
-            </h2>
-        </div>
+<div class="container" style="height: 94px;">
+            
     </div>
     </div>
     
-    <div class="container-fluid mt-4">
-    <div class="col-12" style="background-color: #FFD54F;">
-    </div>
-</div>
 
     </div>  
         </div>
@@ -141,9 +151,9 @@ container{
 .con{
   background-color: #FFF0ED; /* full navbar color */
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
-  height: 130px;       /* fixed height */
+  height: 100px;       /* fixed height */
   padding: 15px 30px;
   position: fixed;    /* stick to top */
   top: 0;
@@ -153,7 +163,44 @@ container{
 
 .con img{
     display:block;
-    align-self: flex-start;
+    align-self: center;
     height: 100px;  
+}
+
+.glass-grid{
+    background:rgba(0, 0, 0, 0.3);
+    height: 90px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.glass-grid img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 15px;
+}
+
+.glass-grid::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3); /* adjust darkness here */
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 </style>
